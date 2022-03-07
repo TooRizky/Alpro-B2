@@ -7,12 +7,11 @@
 /*Program Utama*/
 int main()
 {
-    /*Kamus*/
+/*Kamus*/
     int a;
     int b;
     int c;
-
-    /*Algoritma*/
+/*Algoritma*/
     printf("Masukkan nilai tahanan\n");
     printf("a =");
     scanf("%d", &a);
