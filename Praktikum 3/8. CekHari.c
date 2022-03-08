@@ -15,8 +15,8 @@ int main()
     printf("Masukkan nilai i\n");
     scanf("%d", &i);
 
-    if (i>=0 && i<=7){
-       printf("Sudah Benar\nHari ");
+   if (1 <= i <=7){
+
         if (i == 1){
             printf ("Senin");
         }
@@ -35,11 +35,10 @@ int main()
         else if (i == 6){
             printf("Sabtu");
         }
-        else{
+        else if (i== 7) {
             printf("Minggu");
         }
-    }
-    else{
+        else{
         printf("Masukan nomor hari tidak tepat");
     }
     return 0;
