@@ -21,7 +21,7 @@ int main()
     scanf("%d", &c);
 
     if (a>0 && b>0 && c>0){
-        printf("Seri Positif");
+        printf("Total hasil tahanan rangkaian seri : %d", a+b+c);
     }
     else{
         printf("Masukan tahanan tidak boleh negatif");
