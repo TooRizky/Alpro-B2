@@ -14,8 +14,8 @@ int main()
     printf("Masukkan nilai i =");
     scanf("%d", &i);
 
-    if (i>0 && i<=12){
-    	printf("Sudah Benar\nBulan ");
+    if (1 <= i<=12){
+
         if (i == 1){
             printf ("Januari");
         }
@@ -49,12 +49,11 @@ int main()
         else if (i == 11){
             printf("November");
         }
-        else{
+        else if (i==12){
             printf("Desember");
         }
-    }
-    else{
-        printf("Masukan nomor bulan tidak tepat");
+    else
+        	printf("Masukan nomor bulan tidak tepat");
     }
     return 0;
 }
