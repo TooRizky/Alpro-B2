@@ -1,6 +1,6 @@
 /*Nama File     : SiputNaik.c*/
 /*Deskripsi     : Menentukan berapa hari waktu yang dibutuhkan siput untuk mencapai ketinggian N meter*/
-/*Pembuat       : Luciano Rizky Pratama-24060121140156*/
+/*Pembuat       : 24060121140156 - Luciano Rizky Pratama*/
 /*Tgl Pembuatan : Rabu, 23 Maret 2022*/
 
 
