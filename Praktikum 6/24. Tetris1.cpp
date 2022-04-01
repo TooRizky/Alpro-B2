@@ -11,7 +11,9 @@
 int main()
 {
    // Kamus
-   int N,i,j;
+   int N;
+   int i;
+   int j;
 
    // Algoritma
    printf("Masukkan jumlah baris bintang yang diinginkan : ");
