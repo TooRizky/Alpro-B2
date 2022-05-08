@@ -53,13 +53,13 @@ void insertionSort(int array[], int LengthArray){ /*prosedur untuk menjalankan i
 		
 		j = i - 1;
 
-		/*memindahkan posisi elemen yang lebih besar dari key ke posisi kanan atau selanjutnya dari posisi saat ini*/
+		/*memindahkan posisi elemen yang lebih besar dari center ke posisi kanan atau selanjutnya dari posisi saat ini*/
 		while (j >= 0 && array[j] > center){
 			array[j + 1] = array[j];
 			j -= 1;
 		}
 		
-		/*key dipindahkan ke posisi yang tepat yaitu sebelah kiri dari elemen yang lebih besar dari key dan sebelah kanan dari elemen yang lebih kecil dari key*/
+		/*center dipindahkan ke posisi yang tepat yaitu sebelah kiri dari elemen yang lebih besar dari center dan sebelah kanan dari elemen yang lebih kecil dari center*/
 		array[j + 1] = center;
 	}
 }
