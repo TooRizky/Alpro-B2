@@ -16,7 +16,7 @@ int main(){
 	void printArray(int array[], int LengthArray);    /*deklarasi prosedur printArray*/
 
 /*Algoritma*/
-	printf("Program Selection Sort \n");
+    printf("Selection Sort Program \n");
     printf("Banyaknya bilangan yang ingin diurutkan = ");
     scanf("%d", &N);
 	
