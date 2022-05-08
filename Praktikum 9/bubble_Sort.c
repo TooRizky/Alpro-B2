@@ -16,7 +16,7 @@ int main(){
 	void printArray(int array[], int LengthArray); /*deklarasi prosedur printArray*/
 
 /*Algoritma*/
-	printf("Bubble Sorting Program \n");
+    printf("Bubble Sort Program \n");
     printf("Banyaknya bilangan yang akan diurutkan = ");
     scanf("%d", &N);
 	
